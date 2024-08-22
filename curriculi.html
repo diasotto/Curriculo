@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+ 
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+ 
+        .left {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+ 
+        .photo {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          background-image: url("image.png"); /* Substitua pelo caminho da sua foto */
+          background-size: cover;
+          background-position: center;
+          margin-bottom: 20px;
+        }
+        
+ 
+        .left-top {
+            text-align: center;
+        }
+ 
+        .left-bottom {
+            margin-top: auto; /* Para empurrar a seção para o final da coluna */
+        }
+ 
+        .right {
+            flex: 2;
+            padding: 20px;
+        }
+ 
+        .section {
+            margin-bottom: 20px;
+        }
+ 
+        h1, h2 {
+            margin-top: 0;
+        }
+ 
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo"></div>
+        <div class="left">           
+            <div class="left-top">
+                <p>Otto Dias</p>
+                <p>ottodias46@gmail.com</p>
+            </div>
+            <div class="left-bottom">
+                <h2>Tecnologias</h2>
+                <p>html</p>
+                <p>css</p>
+                <p>js</p>
+                <p>JSON</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="section">
+                <h2>Sobre min</h2>
+                <p>eeu gosto de dormir e assistir series na horas vagas, e gosto de ficar com meu amigos e familia</p>
+            </div>
+            <div class="section">
+                <h2>Escolaridade</h2>
+                <p><strong>Nivel de estudante</strong> - Intermediario</p>
+                <p>vou bem em muitos conteudos da escola, tiro muitas notas boas, porem nao sou muto bom em portugues mas estou melhorando</p>
+                <!-- Adicione mais experiências conforme necessário -->
+            </div>
+            <div class="section">
+                <h2>Conhecimento</h2>
+                <p><strong>Curso</strong> – </p>
+                <p>Estou fazendo curso de programação integrado com o ensimo medio e pretendo me formar em ambos</p>
+                <!-- Adicione mais informações acadêmicas conforme necessário -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+ 
